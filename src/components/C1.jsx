@@ -63,6 +63,7 @@ const Cone = () => {
 <p className={styles.label}>Phone Number</p>
 <input type="phone" placeholder='eg.+9779812787898'/>
           </div>
+          {/* comment added */}
           <button>Next Step</button>
         </div>
     </div>
