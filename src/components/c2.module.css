@@ -1,0 +1,163 @@
+
+*{ 
+    /* /* margin: 0; margin lauda bigreo */
+    /* padding:0 ; */
+    box-sizing: border-box;
+    
+}
+/* Styles for the main container */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+   
+}
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    
+    padding: 20px;
+   
+    width: 60%; /* Adjust the width as needed */
+  }
+  
+  /* Styles for the content section */
+  .content {
+    padding: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  
+  /* Styles for the subtitle */
+  .sub {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  /* Styles for the input section */
+  .input {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  /* Styles for each input group */
+  .inputGroup {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for labels */
+  .label {
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for input fields */
+  .inputField {
+    padding: 20px;
+    border: 1px solid #f0dfdf;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styles for the button */
+  button {
+    width: 100px;
+    background-color: #161717;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px ;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 60px;
+   
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  /* above css is for block 2 */
+  /* Styles for the main container */
+.block1 {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styles for the container of steps */
+  .numcont {
+border: none;
+border-radius: 15px;
+    padding: 2vh;
+    width: 300px;
+    height: 80vh;
+    background-color: #007bff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Styles for individual step containers */
+  .stepContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styles for the step number */
+  .number {
+    width: 30px;
+    height: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+  }
+  
+  /* Styles for the step text */
+  .subheading {
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    color:#f0e0e0;
+  }
+  
+  /* Styles for the step heading */
+  .step {
+    font-size: 15px;
+  font-weight: bold;
+    margin-top: -10px;
+    color:white
+  }
+  
+  /* Styles for the step subheading */
+  .item {
+    font-size: 10px;
+    font-weight: lighter;
+    margin: 0;
+  }
+  
+  /* Hover effect for step containers */
+  .stepContainer:hover {
+    background-color: #f0f0f0;
+  }
+  

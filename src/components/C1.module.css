@@ -16,16 +16,16 @@
    gap: 5px;
   
     padding: 20px;
-   width: 50%;
- height: 90vh;
+   width: 40%;
+ height: 80vh;
    
     font-size: medium;
 }
 .block2{
     margin-left: -200px;
-    width: 50%;
+    width: 60%;
     height: 90vh;
-    background-color: rgb(243, 240, 236);
+    background-color: transparent;
     font-size: large;
     
 }
@@ -60,8 +60,8 @@
     margin-left: 30px;
     width: 50%;
     height: 90vh;
-    border-radius: 5px;
-    background-color: rgb(53, 53, 193);
+    border-radius: 15px;
+    background-color: #007bff;
     margin-left: 20px;
     display: flex;
     flex-direction: column;
@@ -82,9 +82,12 @@
 } */
 .subh{
     margin-top: -15px;
+    
+
 }
 .p{
     font-weight: lighter;
+    color: #f9f2f2ab
     
 }
 .content{
@@ -96,22 +99,25 @@
 }
 .sub{
     margin-top: -10px;
+    color: #474343ab
    
 }
 
 .input{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
 input{
+    padding: 20px;
     margin-left: 30px;
     width: 70%;
     height: 24px;
 }
 button{
-    margin-top: 200px;
+    margin-top: 150px;
     margin-left: 500px;
     background-color: rgb(11, 11, 48);
     border-radius: 10px;
